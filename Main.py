@@ -1,18 +1,39 @@
 import pyautogui,pyaudio,speech_recognition as sr, time
 screenWidth, screenLength = pyautogui.size()
-#print(screenWidth, screenLength)
+print(screenWidth, screenLength)
+
+class ItemPositions:
+    xItem = []
+    yItem = []
+    @classmethod
+    def
+class boardPositions:
+    xBoard = []
+    yBoard = []
+    @classmethod
+
+class buyPositions:
+    xBuy = []
+    yBuy = []
+    @classmethod
+
+class benchPositions:
+    xBench = []
+    yBench = []
+    @classmethod
+
+class actions:
 
 
-'''
-def Carousel():
+#def Carousel():
 
 def Buy():
 
 def Sell():
 
-def Place():
+#def Place():
 
-def Orb():
+#def Orb():
 
 def Item():
 
@@ -22,12 +43,16 @@ def Level():
 
 def Roll():
 
-def Scout():
+#def Scout():
 
 def Lock():
 
-def Feed():
-'''
+
+
+
 def main():
 
-main()
+
+
+if __name__ == "__main__":
+    main()

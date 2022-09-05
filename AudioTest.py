@@ -1,4 +1,3 @@
-from abc import abstractmethod
 
 import pyautogui as pygui, pyaudio, speech_recognition as sr, time, pandas as pd
 recognizer = sr.Recognizer()
@@ -13,9 +12,6 @@ muted = {
     "error": None,
     "transcription": None
 }
-
-
-
 def testmicrophone(storage):
     with microphone as source:
         recognizer.adjust_for_ambient_noise(source)
@@ -43,4 +39,6 @@ while response["transcription"] != "end":
                 break
     else:
         print(response["transcription"])
+
 print("Ending")
+
